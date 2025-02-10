@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export function Testimonials () {
     const testimonials = [
       {
@@ -71,6 +73,11 @@ export function Testimonials () {
                         alt={testimonial.author}
                         className="w-12 h-12 rounded-full object-cover"
                       />
+                      {/*<Image
+                        src={testimonial.image}
+                        alt={testimonial.author}
+                        className="w-12 h-12 rounded-full object-cover"
+                      />*/}
                       <div>
                         <h4 className="font-semibold text-white">{testimonial.author}</h4>
                         <p className="text-sm text-gray-400">{testimonial.role}</p>

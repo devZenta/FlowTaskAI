@@ -30,7 +30,7 @@ export function Partners () {
             Trusted by Industry Leaders
           </h2>
           <p className="text-xl text-gray-400">
-            Partnering with the world's most innovative companies
+            Partnering with the world&apos;s most innovative companies
           </p>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-12">
