@@ -31,8 +31,8 @@ export function Navbar({ theme, toggleTheme }: NavbarProps) {
         <div className="flex h-16 items-center">
           {/* Logo */}
           <Image
-            src="/FlowTask_AI_Logo.png"
-            width={60} // Ajustez cette valeur selon vos besoins
+            src="/TaskFlow_Logo.png"
+            width={60} 
             height={60}
             quality={100}
             alt="FlowTask AI Logo"
