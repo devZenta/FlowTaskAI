@@ -2,7 +2,7 @@ import { FlipWords } from "@/components/ui/flip-words";
 
 export function Header () {
   return (
-    <div className="relative bg-[#030014] pt-16 mt-4">
+    <div className="relative bg-[#030014] pt-16">
       <div className="h-[50rem] w-full bg-[#030014] dark:bg-grid-white/[0.2] relative flex items-center justify-center">
         {/* Radial gradient overlay */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-[#030014] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
